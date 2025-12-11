@@ -1,0 +1,36 @@
+// Customize Bootstrap variables
+$primary: #ff5722;
+
+// Import Bootstrap SCSS
+// @use "../../node_modules/bootstrap/scss/_functions";
+// @use "../../node_modules/bootstrap/scss/_variables";
+// @use "../../node_modules/bootstrap/scss/_mixins";
+@use "../../node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+
+  font-family: 'Dubai', sans-serif;
+}
+nav{
+      background: white !important;
+}
+.header-style {
+    background-color: #fff !important;
+    height: 53px;
+      @media (max-width: 768px) {
+    margin-bottom: 30px !important;
+  }
+
+}
+.mar-icon{
+    margin-right: 20px !important;
+}
+.over-content{
+    z-index: 12;
+    background: white;
+    padding: 10px;
+}
+.bg-lightgray {
+  background-color: #e5e5e5 !important;
+}
