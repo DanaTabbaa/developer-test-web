@@ -24,6 +24,9 @@
   width: 100%;
   background-image: url('~/assets/Images/Header-3.jpg');
   background-size: cover;
+    @media (max-width: 768px ) {
+    background-size: contain;
+  }
   background-position: center;
   background-repeat: no-repeat;
 }
