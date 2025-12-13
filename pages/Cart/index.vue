@@ -45,7 +45,7 @@
 
           <!-- Total -->
           <p class="text-gray-800 font-semibold mt-2">
-            Total: ${{ (item.product.price * item.quantity).toFixed(2) }}
+            Total: AED{{ (item.product.price * item.quantity).toFixed(2) }}
           </p>
         </div>
 
@@ -62,7 +62,7 @@
 
       <!-- Cart Total -->
       <div class="flex justify-end mt-6 text-xl font-bold">
-        Cart Total: ${{ cartTotal.toFixed(2) }}
+        Cart Total: AED{{ cartTotal.toFixed(2) }}
       </div>
     </div>
 

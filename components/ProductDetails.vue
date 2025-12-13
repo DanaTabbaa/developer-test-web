@@ -10,7 +10,7 @@
       <!-- Product Info -->
       <div class="p-4 flex flex-col">
         <h1 class="text-4xl font-bold mb-4">{{ product.title }}</h1>
-        <p class="text-2xl text-gray-800 font-semibold mb-4">Price: ${{ product.price }}</p>
+        <p class="text-2xl text-gray-800 font-semibold mb-4">Price: AED{{ product.price }}</p>
 
         <h3 class="text-lg font-bold border-b-2 mb-4 pb-2">Product Description:</h3>
         <p class="text-gray-700 mb-6">{{ product.description }}</p>
